@@ -1,10 +1,15 @@
 # node-ts-multiplication
 # 🧮 Multiplication Table Generator
 
-Este proyecto genera una tabla de multiplicar en formato `.txt` de forma automática usando Node.js y TypeScript. Puedes configurar el número base, el límite de multiplicación, si deseas mostrar la tabla por consola, y el nombre de la carpeta de salida.
+Este proyecto genera una tabla de multiplicar en formato `.txt` de forma automática usando **Node.js** y **TypeScript**. Puedes configurar:
 
-1) se pone el comando npx ts-node src/app.ts --base 6 -s
-2) verificar el resultado
-   ![image](https://github.com/user-attachments/assets/1c929a90-cfa1-4a41-bb9b-72affa3c59f5)
+- El número base
+- El límite de multiplicación
+- Si deseas mostrar la tabla en consola
+- El nombre de la carpeta donde se guarda el archivo
 
+## 🚀 Comando de ejecución
+
+```bash
+npx ts-node src/app.ts --base 6 -s
 
